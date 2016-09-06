@@ -1,0 +1,176 @@
+body{
+	font-size: 16px;
+	color: #fff;
+	background-color: #61122f;
+}
+
+
+#header-nav{
+	background-color: pink;
+	border-radius: 0;
+	border: 0;
+}
+
+#imagenLogo{
+	background: url('../imagenes/cupcake_foto71.jpg') no-repeat;
+	margin:  10px 10px 10px 0;
+	width: 100px;
+	height: 114px;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1{
+	color: #C8E9DD;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list{
+	margin-top:  10px;
+}
+
+#nav-list a{
+	color: #61122f;
+	text-align: center;
+}
+
+h1{
+  color: #C8E9DD ;
+  text-align: left;
+  margin-left: 20px;
+}
+
+
+#nav-list a:hover{
+	background: white;
+}
+
+
+#nav-list a span{
+	font-size:  1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid white;
+
+}
+.navbar-header button.navbar-toggle{
+	clear:  both;
+}
+
+.container .jumbotron {
+  box-shadow: 0 0 50px #3F0C1F;
+  border: 2px solid #3F0C1F;
+}
+
+.etiqueta{
+border:1px solid black;
+background-color: white;
+width: 100px;
+height: auto;
+float: right;
+text-align: center;
+margin-right:8%;
+}
+
+p{
+	color: #61122f;
+}
+
+.txt{
+color:#61122f;
+margin-top:30px;
+margin-left:8%;
+margin-right:8%;
+background-color: pink; 
+height: 150px;
+}
+
+
+@media (min-width: 1200px) {
+  .container .jumbotron {
+    background: url('../images/jumbotron_1200.jpg') no-repeat;
+    height: 675px;
+  }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+  #logo-img {
+    background: url('../images/restaurant-logo_medium.png') no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0;
+  }
+  
+  .container .jumbotron {
+    background: url('../images/jumbotron_992.jpg') no-repeat;
+    height: 558px;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .container .jumbotron {
+    background: url('../images/jumbotron_768.jpg') no-repeat;
+    height: 432px;
+  }
+
+
+}
+
+@media (max-width: 767px) {
+ 
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { 
+    padding-top: 10px;
+    font-size: 5vw; 
+  }
+  .navbar-brand p { 
+    font-size: .6em;
+    margin-top: 12px;
+  }
+  .navbar-brand p img { 
+    height: 20px;
+  }
+
+  #collapsable-nav a { 
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { 
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+  }
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  
+  .container .jumbotron {
+    margin-top: 30px;
+    padding: 0;
+  }
+
+}
